@@ -5,44 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>CarMax</title>
 </head>
 
 <body>
-    <main>
-        <header>
+    <main class="main-body">
+        <header class="header">
             <div class="div-header">
                 <div class="links">
-                    <ul>
-                        <li>Logo</li>
-                        <li>Shop</li>
-                        <li>Sell/Trade</li>
-                        <li>Finance</li>
-                        <li>More</li>
+                    <ul class="lista">
+                        <li class="item-lista">Logo</li>
+                        <li class="item-lista">Shop</li>
+                        <li class="item-lista">Sell/Trade</li>
+                        <li class="item-lista">Finance</li>
+                        <li class="item-lista">More</li>
                     </ul>
                 </div>
                 <div class="icones">
-                    <ul>
-                        <li>Localização</li>
-                        <li>Coração</li>
-                        <li>User</li>
+                    <ul class="lista">
+                        <li class="item-lista">Localização</li>
+                        <li class="item-lista">Coração</li>
+                        <li class="item-lista">User</li>
                     </ul>
                 </div>
             </div>
             <div class="barra-search">
-                <input type="text">
-                <span></span>
+                <input class="input-search" type="text" placeholder="Search by make, model, or keyword">
+                <span class="icone-lupa">icone lupa</span>
             </div>
         </header>
         <div class="body">
             <div class="text">
-                <h1>Love Your Car Guarantee</h1>
-                <p>Take 30 days to love it or return it (up to 1500 mi) <span>Icon i</span></p>
+                <h1 class="text-title">Love Your Car Guarantee</h1>
+                <p class="text-p">Take 30 days to love it or return it (up to 1500 mi) <span>Icon i</span></p>
             </div>
-            <button>Sarch cars</button>
+            <div>
+                <button class="btn-search">Search cars</button>
+            </div>
         </div>
     </main>
+    <div class="feedback">Feedback</div>
+    <div class="message">Icone</div>
 </body>
 
 </html>

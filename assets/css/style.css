@@ -1,12 +1,139 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
-main {
+li {
+    list-style: none;
+}
+
+.main-body {
     background-image: url('../images/lycg-xl.jpg');
     height: 100vh;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 30% center;
     background-size: cover;
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista {
+    display: flex;
+    padding: 0 5px;
+}
+
+.item-lista {
+    color: rgb(5, 51, 97);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.barra-search {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    position: relative;
+    border: 2px solid white;
+}
+
+.input-search {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.barra-search:hover {
+    border-color: blue;
+}
+
+.icone-lupa {
+    position: absolute;
+    right: 10px;
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text {
+    max-width: 600px;
+}
+
+.text-title {
+    font-size: 76px;
+    letter-spacing: .3px;
+    line-height: 76px;
+    color: rgb(5, 51, 97);
+    font-weight: 700;
+}
+
+.text-p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 31px;
+    color: rgb(84, 91, 99);
+}
+
+.btn-search {
+    min-width: 236px;
+    background-color: #ffc000;
+    color: #053361;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    min-height: 48px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.btn-search:hover {
+    background-color: #fcec3f;
+}
+
+.feedback {
+    position: absolute;
+    right: -26px;
+    bottom: 100px;
+    background-color: white;
+    padding: 8px 12px;
+    color: #053361;
+    rotate: -90deg;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.message {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 50px;
+    color: white;
+    bottom: 10px;
+    color: white;
+    background-color: #1773cf;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
 }
